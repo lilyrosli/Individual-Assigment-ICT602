@@ -1,0 +1,17 @@
+<resources>
+   <!-- Green Theme -->
+   <style name="Theme_Green" parent="Theme.AppCompat.Light.NoActionBar">
+       <item name="android:colorPrimary">@color/primary</item>
+       <item name="android:colorPrimaryDark">@color/primary_dark</item>
+       <item name="android:colorAccent">@color/accent</item>
+       <item name="android:windowBackground">@drawable/background</item>
+       <item name="android:windowBackground">@drawable/developer</item>
+       <item name="android:windowBackground">@drawable/header</item>
+
+
+
+
+   </style>
+</resources>
+
+

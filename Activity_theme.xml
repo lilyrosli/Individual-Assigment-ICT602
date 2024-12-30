@@ -1,0 +1,70 @@
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:orientation="vertical"
+   android:gravity="center"
+   android:padding="16dp"
+   android:background="@drawable/background">
+
+
+
+
+   <!-- Radio Group for Theme Selection -->
+   <RadioGroup
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_marginBottom="16dp">
+
+
+
+
+       <RadioButton
+           android:id="@+id/rb_pink"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Pink Theme"/>
+
+
+
+
+       <RadioButton
+           android:id="@+id/rb_soft1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Soft Color 1 Theme"/>
+
+
+
+
+       <RadioButton
+           android:id="@+id/rb_soft2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Soft Color 2 Theme"/>
+   </RadioGroup>
+
+
+
+
+   <!-- Apply Button to Set Theme -->
+   <Button
+       android:id="@+id/btn_apply"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Apply Theme"
+       android:layout_marginBottom="16dp"
+       android:backgroundTint="@color/primary"/>
+
+
+
+
+   <!-- Back Button to Main Menu -->
+   <Button
+       android:id="@+id/btn_back"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Back to Main Menu"
+       android:backgroundTint="@color/secondary"/>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<resources>
+   <!-- Theme Assignment1 (Green Theme) -->
+   <style name="Theme.Assignment1" parent="Theme.AppCompat.Light.DarkActionBar">
+       <item name="colorPrimary">#4CAF50</item> <!-- Green -->
+       <item name="colorPrimaryDark">#388E3C</item> <!-- Dark Green -->
+       <item name="colorAccent">#81C784</item> <!-- Light Green -->
+   </style>
+
+
+
+
+   <!-- Other theme definitions (if any) -->
+   <style name="Theme.Pink" parent="Theme.AppCompat.Light.DarkActionBar">
+       <item name="colorPrimary">#4CAF50</item> <!-- Green -->
+       <item name="colorPrimaryDark">#388E3C</item> <!-- Dark Green -->
+       <item name="colorAccent">#81C784</item> <!-- Light Green -->
+   </style>
+
+
+
+
+   <style name="Theme.Soft1" parent="Theme.AppCompat.Light.DarkActionBar">
+       <item name="colorPrimary">#87CEEB</item>
+       <item name="colorPrimaryDark">#4682B4</item>
+       <item name="colorAccent">#B0E0E6</item>
+   </style>
+
+
+
+
+   <style name="Theme.Soft2" parent="Theme.AppCompat.Light.DarkActionBar">
+       <item name="colorPrimary">#98FB98</item> <!-- Pale Green -->
+       <item name="colorPrimaryDark">#228B22</item> <!-- Forest Green -->
+       <item name="colorAccent">#ADFF2F</item> <!-- Green Yellow -->
+   </style>
+</resources>

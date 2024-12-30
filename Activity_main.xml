@@ -1,0 +1,67 @@
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:orientation="vertical"
+   android:gravity="center"
+   android:padding="16dp"
+   android:background="@drawable/background">
+
+
+
+
+   <!-- Header Image -->
+   <ImageView
+       android:id="@+id/header_image"
+       android:layout_width="match_parent"
+       android:layout_height="200dp"
+       android:src="@drawable/header"
+       android:scaleType="centerCrop"
+       android:layout_marginBottom="16dp"
+       android:contentDescription="Header Image" />
+
+
+
+
+   <!-- Calculator Button -->
+   <Button
+       android:id="@+id/btn_calculator"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/calculator"
+       android:textColor="@android:color/white"
+       android:layout_marginBottom="16dp"
+       android:backgroundTint="#388E3C" />
+
+
+
+
+   <!-- About Me Button -->
+   <Button
+       android:id="@+id/btn_about"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/about_me"
+       android:textColor="@android:color/white"
+       android:layout_marginBottom="16dp"
+       android:backgroundTint="#43A047" />
+
+
+
+
+   <!-- Share URL Button -->
+   <Button
+       android:id="@+id/btn_share"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/share_url"
+       android:textColor="@android:color/white"
+       android:layout_marginBottom="16dp"
+       android:backgroundTint="#66BB6A" />
+
+
+
+
+</LinearLayout>
+
+

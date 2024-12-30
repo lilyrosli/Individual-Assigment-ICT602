@@ -1,0 +1,19 @@
+<resources>
+   <!-- Primary Colors -->
+   <color name="primary">#4CAF50</color> <!-- Green -->
+   <color name="primary_dark">#388E3C</color> <!-- Dark Green (for primary_dark) -->
+   <color name="primary_light">#81C784</color> <!-- Light Green (for primary_light) -->
+
+
+
+
+   <!-- Accent Color -->
+   <color name="accent">#FF4081</color> <!-- Accent Color (used for highlights) -->
+
+
+
+
+   <!-- Additional Colors -->
+   <color name="secondary">#81C784</color> <!-- Light Green -->
+   <color name="link_color">#388E3C</color> <!-- Dark Green (used for links or emphasis) -->
+</resources>
